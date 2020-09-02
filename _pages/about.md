@@ -6,7 +6,8 @@ description: Doctoral Candidate, <a href="http://datascience.inf.ed.ac.uk/">CDT 
 
 profile:
   align: left
-  image: small-crop.jpg
+  <!--image: small-crop.jpg-->
+  image: duck_selfie.JPG
   address: >
     <!--p>555 your office number</p-->
     <p>Informatics Forum 3.33</p>
