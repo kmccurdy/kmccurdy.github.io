@@ -5,6 +5,9 @@
 	url = {https://www.aclweb.org/anthology/2020.acl-main.159},
 	abstract = {Can artificial neural networks learn to represent inflectional morphology and generalize to new words as human speakers do? Kirov and Cotterell (2018) argue that the answer is yes: modern Encoder-Decoder (ED) architectures learn human-like behavior when inflecting English verbs, such as extending the regular past tense form /-(e)d/ to novel words. However, their work does not address the criticism raised by Marcus et al. (1995): that neural models may learn to extend not the regular, but the most frequent class — and thus fail on tasks like German number inflection, where infrequent suffixes like /-s/ can still be productively generalized. To investigate this question, we first collect a new dataset from German speakers (production and ratings of plural forms for novel nouns) that is designed to avoid sources of information unavailable to the ED model. The speaker data show high variability, and two suffixes evince `regular' behavior, appearing more often with phonologically atypical inputs. Encoder-decoder models do generalize the most frequently produced plural class, but do not show human-like variability or `regular' extension of these other plural markers. We conclude that modern neural models may still struggle with minority-class generalization.},
 	urldate = {2020-07-21},
+	arxiv = {arXiv: 2005.08826},
+	data = {acl2020_study1_data.zip},
+	blog = {/acl2020-summary},
 	booktitle = {Proceedings of the 58th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
 	publisher = {Association for Computational Linguistics},
 	author = {McCurdy, Kate and Goldwater, Sharon and Lopez, Adam},
@@ -47,14 +50,16 @@ fact is due to a constraint on prosody that is active in English but not in Fren
 	file = {wagnermccurdy10rhyme.pdf:/Users/kate/Zotero/storage/8N282ZMK/wagnermccurdy10rhyme.pdf:application/pdf}
 }
 
-@inproceedings{mccurdy_grammatical_2017,
+@article{mccurdy_grammatical_2017,
 	address = {Vancouver, Canada},
 	title = {Grammatical gender associations outweigh topical gender bias in crosslinguistic word embeddings},
 	abstract = {Recent research has demonstrated that vector space models of semantics can reﬂect undesirable biases in human culture. Our investigation of crosslinguistic word embeddings reveals that topical gender bias interacts with, and is surpassed in magnitude by, the effect of grammatical gender associations, and both may be attenuated by corpus lemmatization. This ﬁnding has implications for downstream applications such as machine translation.},
 	language = {en},
-	booktitle = {Presented at {WiNLP} ({Women} in {Natural} {Language} {Processing})},
+	journal = {Presented at {WiNLP} ({Women} in {Natural} {Language} {Processing})},
 	author = {McCurdy, Katherine and Serbetci, Oguz},
 	year = {2017},
+	code = {https://github.com/kmccurdy/w2v-gender},
+	arxiv = {arXiv:2005.08864},
 	file = {McCurdy - Grammatical gender associations outweigh topical g.pdf:/Users/kate/Zotero/storage/UQUHURR7/McCurdy - Grammatical gender associations outweigh topical g.pdf:application/pdf}
 }
 

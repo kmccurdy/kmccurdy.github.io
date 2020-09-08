@@ -85,6 +85,12 @@
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
   {% endif %}
+  {% if entry.data %}
+    [<a href="{{ entry.data | prepend: '/assets/data/' | prepend: site.baseurl | prepend: site.url}}" target="_blank">Data</a>]
+  {% endif %}
+    {% if entry.blog %}
+    [<a href="{{ entry.blog | prepend: entry.year | prepend: '/blog/' | prepend: site.baseurl | prepend: site.url}}" target="_blank">Nontechnical summary</a>]
+  {% endif %}
   </span>
 
   <!-- Hidden abstract block -->
