@@ -70,6 +70,9 @@
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]
   {% endif %}
+    {% if entry.url %}
+    [<a href="{{ entry.url }}" target="_blank">Paper</a>]
+  {% endif %}
   {% if entry.pdf %}
     [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
   {% endif %}
@@ -89,7 +92,7 @@
     [<a href="{{ entry.data | prepend: '/assets/data/' | prepend: site.baseurl | prepend: site.url}}" target="_blank">Data</a>]
   {% endif %}
     {% if entry.blog %}
-    [<a href="{{ entry.blog | prepend: entry.year | prepend: '/blog/' | prepend: site.baseurl | prepend: site.url}}" target="_blank">Nontechnical summary</a>]
+    [<a href="{{ entry.blog | prepend: entry.year | prepend: '/blog/' | prepend: site.baseurl | prepend: site.url}}" target="_blank">Blog post</a>]
   {% endif %}
   </span>
 

@@ -98,7 +98,7 @@ scholar:
   order: descending
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: publications.bib
   bibliography_template: bib
 
   replace_strings: true
