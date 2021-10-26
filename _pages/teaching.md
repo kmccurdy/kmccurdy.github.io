@@ -2,7 +2,8 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: courses for which I've provided teaching support
+description: Materials for courses you taught. Replace this text with your description.
+nav: true
 ---
 
 <h3 class="year">2020</h3>
