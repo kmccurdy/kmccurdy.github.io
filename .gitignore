@@ -8,5 +8,5 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
-_pre-screwup/*
+pre-screwup
 _bibliography/my-pubs.bib
