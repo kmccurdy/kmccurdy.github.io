@@ -31,6 +31,7 @@ Tutor / Marker. <a href="http://www.drps.ed.ac.uk/21-22/dpt/cxinfr11125.htm">Acc
 
 Teaching Assistant / Marker. <a href="http://www.drps.ed.ac.uk/current/dpt/cxinfr11157.htm">Natural Language Understanding, Generation, and Machine Translation</a>. <br/> Instructor: <a href="https://homepages.inf.ed.ac.uk/keller//">Dr. Frank Keller</a>.
 
+<h4>Summer</h4>
 
 Teaching Assistant. Morphological Analysis and Lemmatization in Context (MSc cluster project). <br/>Instructor: <a href="https://homepages.inf.ed.ac.uk/sgwater/">Dr. Sharon Goldwater</a>.
 
