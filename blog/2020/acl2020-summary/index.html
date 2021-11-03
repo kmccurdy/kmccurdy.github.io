@@ -12,7 +12,7 @@
   Kate  McCurdy
 
 
-  | blog
+  | neural models differ from speakers in how they inflect new words
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦆</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/acl2020-summary/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -106,14 +106,10 @@
             <a class="nav-link" href="/blog/">
               blog
               
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -155,8 +151,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -173,28 +169,33 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1><a href="https://xkcd.com/148">
-      blag
-    </a></h1>
-    <h2></h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">neural models differ from speakers in how they inflect new words</h1>
+    <p class="post-meta">July 6, 2020</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/acl2020-summary/">neural models differ from speakers in how they inflect new words</a></h3>
-        <p class="post-meta">July 6, 2020</p>
-        <p>nontechnical summary of McCurdy, Goldwater, and Lopez, ACL 2020</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>for ACL 2020, I wrote up a nontechnical summary of our research. posting here in case it’s useful.</p>
+
+<h1 id="inflecting-when-theres-no-majority-limitations-of-encoder-decoders-as-cognitive-models-of-german-plurals">Inflecting When There’s No Majority: Limitations of Encoder-Decoders as Cognitive Models of German Plurals</h1>
+
+<p>Kate McCurdy, Sharon Goldwater, Adam Lopez</p>
+
+<p><a href="https://www.aclweb.org/anthology/2020.acl-main.159" target="_blank" rel="noopener noreferrer">Our paper</a> looks at whether artificial neural networks behave similarly to human speakers when faced with new words. Neural networks successfully learn to extend frequent patterns to new words. For example, they can learn to use the English plural suffix -s (as in <em>dogs</em> and <em>cats</em>) for new words (e.g. <em>wugs</em>), and some researchers have argued that this behavior is human-like. In some cases, however, human speakers also extend infrequent or rare patterns to new words. A hypothetical example in English would be a new word which took the same singular and plural form, like <em>sheep</em> or <em>deer</em>; however, while this almost never occurs in English, there are other languages where speakers reliably apply rare patterns to new words. Can neural models also learn this behavior?</p>
+
+<p>If a German speaker learns a new word <em>Bral</em> and wants to produce its plural form, that speaker must make a decision. Will <em>Bral</em> take the suffix -e (like the existing word <em>Male</em>, which means “times”) or -en (like <em>Wahlen</em>, “votes”), both of which are quite frequent patterns in German? Or will it take a more rare suffix such as -er (like <em>Täler</em>, “valleys”) or -s (like <em>Schals</em>, “scarves”)? Based on previous linguistic research, the speaker is more likely to use the rare suffix -s if the new word sounds more unusual (e.g. <em>Bnöhk</em> or <em>Plaupf</em>), rather than similar to existing German words (e.g. <em>Bral</em>). This feature of the German plural system makes it a useful test case to evaluate whether neural models can learn to generalize rare patterns as speakers do.</p>
+
+<p>Our experiment used two lists of made-up words, developed by previous researchers: Rhymes, which sound like existing German words (e.g. <em>Bral</em>, <em>Spert</em>), and Non-Rhymes, which sound more unusual (e.g. <em>Bnöhk</em>, <em>Plaupf</em>). We presented these words to German speakers and asked them to produce the plural forms of these words. We also trained a neural network to produce plural forms of German words, and presented the same list of made-up words to the network.</p>
+
+<p>Our results indicate that neural models do <em>not</em> use rare patterns the way speakers do. We found that speakers used the rare suffix -s more on Non-Rhymes compared to Rhymes, consistent with earlier studies. By contrast, the neural network did not use -s more on Non-Rhymes; instead, it showed a <em>frequency bias</em>, using the frequent suffix -e more on Non-Rhymes than Rhymes. This finding suggests that neural models do not fully capture human speaker cognition: they fail to learn the conditions under which speakers generalize rare patterns.</p>
+
+  </article>
 
   
-
 
 </div>
 
@@ -205,8 +206,8 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2021 Kate  McCurdy.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    © Copyright 2021 Kate  McCurdy.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
     
     
