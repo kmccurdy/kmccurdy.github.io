@@ -17,7 +17,6 @@ Seminar instructor: <a href="https://lacoco-lab.github.io/courses/langmod-cogmod
 MSc. advisees: Doreen Osmelak, Katharina Jana Christian
 
 
-
 <h3 class="year">University of Edinburgh</h3>
 
 Tutor/Marker/Demonstrator/TA, Natural Language Understanding, Generation, Machine Translation. (2020-2022)
