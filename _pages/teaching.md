@@ -7,7 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-
 <h3 class="year">Saarland University</h3>
 
 Blockseminar instructor: <a href="https://lacoco-lab.github.io/courses/compositionality-2024/">Compositionality in language and computation.</a> (2024)
